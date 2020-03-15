@@ -41,5 +41,5 @@ EXAMPLES
   $ oclif-example _autocomplete --refresh-cache
 ```
 
-_See code: [src/commands/_autocomplete/index.ts](https://github.com/rizzlesauce/oclif-plugin-autocomplete/blob/v0.1.5/src/commands/_autocomplete/index.ts)_
+_See code: [src/commands/_autocomplete/index.ts](https://github.com/rizzlesauce/oclif-plugin-autocomplete/blob/v0.1.6-rossa.1/src/commands/_autocomplete/index.ts)_
 <!-- commandsstop -->

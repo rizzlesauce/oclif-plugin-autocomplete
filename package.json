@@ -1,7 +1,7 @@
 {
   "name": "@rizzlesauce/oclif-plugin-autocomplete",
   "description": "autocomplete plugin for oclif",
-  "version": "0.1.5",
+  "version": "0.1.6-rossa.1",
   "author": "Philipe Navarro @RasPhilCo",
   "bugs": "https://github.com/rizzlesauce/oclif-plugin-autocomplete/issues",
   "dependencies": {
