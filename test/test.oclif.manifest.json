@@ -1,16 +1,16 @@
 {
   "version": "0.0.0",
   "commands": {
-    "autocomplete": {
-      "id": "autocomplete",
+    "_autocomplete": {
+      "id": "_autocomplete",
       "description": "display autocomplete instructions",
-      "pluginName": "@oclif/plugin-autocomplete",
+      "pluginName": "@rizzlesauce/oclif-plugin-autocomplete",
       "pluginType": "core",
       "aliases": [],
       "examples": [
-        "$ heroku autocomplete",
-        "$ heroku autocomplete bash",
-        "$ heroku autocomplete zsh"
+        "$ heroku _autocomplete",
+        "$ heroku _autocomplete bash",
+        "$ heroku _autocomplete zsh"
       ],
       "flags": {
         "skip-instructions": {
@@ -28,10 +28,10 @@
         }
       ]
     },
-    "autocomplete:foo": {
-      "id": "autocomplete:foo",
+    "_autocomplete:foo": {
+      "id": "_autocomplete:foo",
       "description": "cmd for autocomplete testing `with some potentially dangerous script` and [square brackets] and \"double-quotes\"\nand a multi-line description",
-      "pluginName": "@oclif/plugin-autocomplete",
+      "pluginName": "@rizzlesauce/oclif-plugin-autocomplete",
       "pluginType": "core",
       "aliases": [],
       "flags": {

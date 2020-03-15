@@ -18,15 +18,15 @@ autocomplete plugin for oclif (bash & zsh)
 See https://oclif.io/docs/plugins.html
 # Commands
 <!-- commands -->
-* [`oclif-example autocomplete [SHELL]`](#oclif-example-autocomplete-shell)
+* [`oclif-example _autocomplete [SHELL]`](#oclif-example-_autocomplete-shell)
 
-## `oclif-example autocomplete [SHELL]`
+## `oclif-example _autocomplete [SHELL]`
 
 display autocomplete installation instructions
 
 ```
 USAGE
-  $ oclif-example autocomplete [SHELL]
+  $ oclif-example _autocomplete [SHELL]
 
 ARGUMENTS
   SHELL  shell type
@@ -35,11 +35,11 @@ OPTIONS
   -r, --refresh-cache  Refresh cache (ignores displaying instructions)
 
 EXAMPLES
-  $ oclif-example autocomplete
-  $ oclif-example autocomplete bash
-  $ oclif-example autocomplete zsh
-  $ oclif-example autocomplete --refresh-cache
+  $ oclif-example _autocomplete
+  $ oclif-example _autocomplete bash
+  $ oclif-example _autocomplete zsh
+  $ oclif-example _autocomplete --refresh-cache
 ```
 
-_See code: [src/commands/autocomplete/index.ts](https://github.com/oclif/plugin-autocomplete/blob/v0.1.5/src/commands/autocomplete/index.ts)_
+_See code: [src/commands/_autocomplete/index.ts](https://github.com/rizzlesauce/oclif-plugin-autocomplete/blob/v0.1.5/src/commands/_autocomplete/index.ts)_
 <!-- commandsstop -->

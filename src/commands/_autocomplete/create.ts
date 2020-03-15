@@ -1,7 +1,7 @@
 import * as fs from 'fs-extra'
 import * as path from 'path'
 
-const debug = require('debug')('autocomplete:create')
+const debug = require('debug')('_autocomplete:create')
 
 import {AutocompleteBase} from '../../base'
 

@@ -4,7 +4,7 @@ import {loadJSON} from '@oclif/config/lib/util'
 import {expect} from 'chai'
 import * as path from 'path'
 
-import Create from '../../../src/commands/autocomplete/create'
+import Create from '../../../src/commands/_autocomplete/create'
 
 const root = path.resolve(__dirname, '../../../package.json')
 const config = new Config({root})
@@ -94,8 +94,8 @@ _oclif-example()
   COMPREPLY=()
 
   local commands="
-autocomplete --skip-instructions
-autocomplete:foo --bar --baz --dangerous --brackets --double-quotes --multi-line --json
+_autocomplete --skip-instructions
+_autocomplete:foo --bar --baz --dangerous --brackets --double-quotes --multi-line --json
 "
 
   if [[ "\${COMP_CWORD}" -eq 1 ]] ; then
@@ -125,19 +125,19 @@ _oclif-example () {
 
   ## public cli commands & flags
   local -a _all_commands=(
-"autocomplete:display autocomplete instructions"
-"autocomplete\\:foo:cmd for autocomplete testing \\\\\\\`with some potentially dangerous script\\\\\\\` and \\\\\[square brackets\\\\\] and \\\\\\\"double-quotes\\\\\\\""
+"_autocomplete:display autocomplete instructions"
+"_autocomplete\\:foo:cmd for autocomplete testing \\\\\\\`with some potentially dangerous script\\\\\\\` and \\\\\[square brackets\\\\\] and \\\\\\\"double-quotes\\\\\\\""
   )
 
   _set_flags () {
     case $_command_id in
-autocomplete)
+_autocomplete)
   _command_flags=(
     "--skip-instructions[don't show installation instructions]"
   )
 ;;
 
-autocomplete:foo)
+_autocomplete:foo)
   _command_flags=(
     "--bar=-[bar for testing]:"
 "--baz=-[baz for testing]:"

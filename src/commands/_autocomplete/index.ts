@@ -16,10 +16,10 @@ export default class Index extends AutocompleteBase {
   }
 
   static examples = [
-    '$ <%= config.bin %> autocomplete',
-    '$ <%= config.bin %> autocomplete bash',
-    '$ <%= config.bin %> autocomplete zsh',
-    '$ <%= config.bin %> autocomplete --refresh-cache',
+    '$ <%= config.bin %> _autocomplete',
+    '$ <%= config.bin %> _autocomplete bash',
+    '$ <%= config.bin %> _autocomplete zsh',
+    '$ <%= config.bin %> _autocomplete --refresh-cache',
   ]
 
   async run() {
@@ -40,7 +40,7 @@ export default class Index extends AutocompleteBase {
 ${chalk.bold(`Setup Instructions for ${bin.toUpperCase()} CLI Autocomplete ---`)}
 
 1) Add the autocomplete env var to your ${shell} profile and source it
-${chalk.cyan(`$ printf "$(${bin} autocomplete:script ${shell})" >> ~/.${shell}rc; source ~/.${shell}rc`)}
+${chalk.cyan(`$ printf "$(${bin} _autocomplete:script ${shell})" >> ~/.${shell}rc; source ~/.${shell}rc`)}
 
 NOTE: ${note}
 

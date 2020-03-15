@@ -40,7 +40,7 @@ jobs:
 
 workflows:
   version: 2
-  "@oclif/plugin-autocomplete":
+  "@rizzlesauce/oclif-plugin-autocomplete":
     jobs:
       - node-latest
       - node-12

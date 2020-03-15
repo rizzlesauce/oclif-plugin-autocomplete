@@ -1,9 +1,9 @@
 {
-  "name": "@oclif/plugin-autocomplete",
+  "name": "@rizzlesauce/oclif-plugin-autocomplete",
   "description": "autocomplete plugin for oclif",
   "version": "0.1.5",
   "author": "Philipe Navarro @RasPhilCo",
-  "bugs": "https://github.com/oclif/plugin-autocomplete/issues",
+  "bugs": "https://github.com/rizzlesauce/oclif-plugin-autocomplete/issues",
   "dependencies": {
     "@oclif/command": "^1.4.31",
     "@oclif/config": "^1.6.22",
@@ -39,7 +39,7 @@
     "/lib",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/oclif/plugin-autocomplete",
+  "homepage": "https://github.com/rizzlesauce/oclif-plugin-autocomplete",
   "keywords": [
     "oclif-plugin"
   ],
@@ -51,7 +51,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "oclif/plugin-autocomplete",
+  "repository": "rizzlesauce/oclif-plugin-autocomplete",
   "scripts": {
     "lint": "eslint . --ext .ts --config .eslintrc",
     "pretest": "tsc -p test --noEmit",
